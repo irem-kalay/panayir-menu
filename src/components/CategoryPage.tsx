@@ -4,6 +4,8 @@ import { ArrowLeft } from 'lucide-react';
 import { Button } from './ui/button';
 import { Tabs, TabsList, TabsTrigger } from './ui/tabs';
 
+import arkaplan from '../assets/photos/menuArkaPlan.png';
+
 import brüksel from '../assets/photos/bruksel.jpg';
 import bubbleCupWaffle from '../assets/photos/bubbleCupWaffle.jpg';
 import bubbleDondurmalı from '../assets/photos/bubbleDondurmalıSandvicWaffle.jpg';
@@ -640,7 +642,11 @@ export function CategoryPage({ categoryId, onBack }: CategoryPageProps) {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="bg-card border-b border-border sticky top-0 z-10 backdrop-blur-sm bg-card/95">
+      <header className="bg-card border-b border-border sticky top-0 z-10 backdrop-blur-sm bg-card/95"
+        style={{
+              backgroundImage: `linear-gradient(rgba(236, 199, 247, 0.64), rgba(249, 241, 249, 0.6)), url(${arkaplan})`
+            }} 
+        >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-6 pt-safe">
           <Button 
             variant="ghost" 
