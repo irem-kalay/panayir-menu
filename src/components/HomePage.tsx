@@ -46,7 +46,6 @@ export function HomePage({ onSelectCategory }: HomePageProps) {
           <h1 className="text-primary mb-2 sm:mb-3">Panayır Waffle</h1>
           <p className="text-muted-foreground max-w-2xl mx-auto px-2">
             Özenle hazırlanmış eşsiz lezzetler sunan Panayır Waffle'a hoş geldiniz. 
-            Taze malzemelerle hazırlanmış waffle çeşitlerimiz, kahve, dondurma ve içecek seçeneklerimizle sizlere unutulmaz bir tat deneyimi yaşatmayı amaçlıyoruz.
           </p>
         </div>
       </header>
