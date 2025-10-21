@@ -43,7 +43,7 @@ export function HomePage({ onSelectCategory }: HomePageProps) {
       {/* Header */}
       <header className="bg-card border-b border-border"
         style={{
-    backgroundImage: `linear-gradient(rgba(236, 199, 247, 0.64), rgba(249, 241, 249, 0.6)), url('/src/assets/photos/menuArkaplan.png')`,
+    backgroundImage: `linear-gradient(rgba(236, 199, 247, 0.64), rgba(249, 241, 249, 0.6)), url('/src/assets/photos/menuArkaPlan.png')`,
   }}
         >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12 text-center">
