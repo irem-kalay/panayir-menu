@@ -4,6 +4,7 @@ import wafflesImg from '../assets/photos/wafflelar.jpg';
 import kahveler from '../assets/photos/kahveler.jpg';
 import icecekler from '../assets/photos/icecekler.jpg';
 import dondurmalar from '../assets/photos/dondurma.jpg';
+import arkaplan from '../assets/photos/menuArkaPlan.png';
 
 
 interface HomePageProps {
@@ -43,7 +44,7 @@ export function HomePage({ onSelectCategory }: HomePageProps) {
       {/* Header */}
       <header className="bg-card border-b border-border"
         style={{
-    backgroundImage: `linear-gradient(rgba(236, 199, 247, 0.64), rgba(249, 241, 249, 0.6)), url('/src/assets/photos/menuArkaPlan.png')`
+    backgroundImage: `linear-gradient(rgba(236, 199, 247, 0.64), rgba(249, 241, 249, 0.6)), url(${arkaplan})`
   }}
         >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12 text-center">
