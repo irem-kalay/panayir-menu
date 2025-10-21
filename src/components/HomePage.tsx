@@ -41,7 +41,11 @@ export function HomePage({ onSelectCategory }: HomePageProps) {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="bg-card border-b border-border">
+      <header className="bg-card border-b border-border"
+        style={{
+    backgroundImage: `linear-gradient(rgba(236, 199, 247, 0.64), rgba(249, 241, 249, 0.6)), url('/src/assets/photos/menuArkaplan.png')`,
+  }}
+        >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12 text-center">
           <h1 className="text-primary mb-2 sm:mb-3">Panayır Waffle</h1>
           <p className="text-muted-foreground max-w-2xl mx-auto px-2">
