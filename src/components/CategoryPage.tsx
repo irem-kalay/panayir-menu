@@ -4,12 +4,12 @@ import { ArrowLeft } from 'lucide-react';
 import { Button } from './ui/button';
 import { Tabs, TabsList, TabsTrigger } from './ui/tabs';
 
-import brüksel from '../assets/photos/brüksel.jpg';
+import brüksel from '../assets/photos/bruksel.jpg';
 import bubbleCupWaffle from '../assets/photos/bubbleCupWaffle.jpg';
-import bubbleDondurmalı from '../assets/photos/bubbleDondurmalıSandviçWaffle.jpg';
-import bubbleSandviç from '../assets/photos/bubbleSandviçWaffle.jpg';
+import bubbleDondurmalı from '../assets/photos/bubbleDondurmalıSandvicWaffle.jpg';
+import bubbleSandviç from '../assets/photos/bubbleSandvicWaffle.jpg';
 import bubblewaffle from '../assets/photos/bubbleWaffle.jpg';
-import çilektutukusu from '../assets/photos/çilekTutukusu.jpg';
+import çilektutukusu from '../assets/photos/cilekTutukusu.jpg';
 import dondurma from '../assets/photos/dondurma.jpg';
 import dondurma1 from '../assets/photos/dondurma1.jpg';
 import dondurma2 from '../assets/photos/dondurma2.jpg';
